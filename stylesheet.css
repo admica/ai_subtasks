@@ -1,0 +1,85 @@
+QWidget {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #424242;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #616161;
+}
+
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background-color: #212121;
+    color: #ffffff;
+    border: 1px solid #424242;
+}
+
+QTabWidget::pane {
+    border: none;
+}
+
+QTabBar::tab {
+    background-color: #424242;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+QTabBar::tab:selected {
+    background-color: #616161;
+}
+
+QLabel {
+    color: #ffffff;
+}
+
+QMessageBox {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+QMessageBox QPushButton {
+    background-color: #424242;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #616161;
+}
+
+QComboBox {
+    background-color: #212121;
+    color: #ffffff;
+    border: 1px solid #424242;
+    padding: 5px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #212121;
+    color: #ffffff;
+    selection-background-color: #424242;
+}
+
+QProgressBar {
+    background-color: #212121;
+    color: #ffffff;
+    border: 1px solid #424242;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #616161;
+}
+
+QsciScintilla {
+    background-color: #212121;
+    color: #ffffff;
+    border: 1px solid #424242;
+}

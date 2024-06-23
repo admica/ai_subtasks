@@ -1,0 +1,1 @@
+Write a Roulette app in python. The user should imput a bet and the app should then simulate the wheel spin. Assume all bets are on black and the wheel has the 0 and 00 spaces. The user can keep betting until they enter a zero bet to quit the game. Keep track of the winnings. Assume the user starts with $500. Min bet is $5, max is $5000.
